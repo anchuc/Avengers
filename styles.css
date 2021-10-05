@@ -264,7 +264,7 @@
         }
     }
     
-    @media screen and (max-width: 960px) {
+    @media screen and (max-width: 960px) and (min-width: 300px) {
         .navbar__container {
             display: flex;
             justify-content: space-between;
@@ -292,7 +292,7 @@
             opacity: 1;
             transition: all 0.8s ease;
             z-index: 99;
-            height: 200vh;
+            height: 65vh;
         }
         #navbar__logo {
             padding-left: 25px;
@@ -314,7 +314,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 120px;
+            height: 25%;
             font-size: 24px;
         }
         .navbar-btn {
@@ -326,7 +326,7 @@
             height: 120px;
         }
         #contactus {
-            margin-bottom: 28px;
+            margin-bottom: 32px;
         }
         #signup {
             margin-top: 12px;
