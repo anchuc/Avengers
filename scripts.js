@@ -39,3 +39,21 @@ const mobileMenu = () => {
 };
 
 menu.addEventListener('click', mobileMenu);
+
+var modal = document.getElementById('navbar-btn');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == w3 - modal) {
+        modal.style.display = "none";
+    }
+}
+
+var modal = document.getElementById('navbar-btn1');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == w3 - modal) {
+        modal.style.display = "none";
+    }
+}
